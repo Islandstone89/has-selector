@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>:has</title>
+</head>
+<body>
+    <main class="flow">
+
+        <h1><code>:has()</code></h1>
+
+        <div class="target flow">
+            <h2><code>:target</code></h2>
+
+            <div class="target-links">
+                <a href="#section-1">Go to Section 1</a>
+                <a href="#section-2">Go to Section 2</a>
+            </div><!-- end target-links -->
+
+            <section>
+                <h3 id="section-1">Section 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quibusdam esse magni consequuntur itaque atque tempore dolor a iure aut aliquid sapiente eaque voluptas, soluta sequi sit corrupti architecto temporibus sint enim aperiam? Facere maxime porro eum eligendi minima unde dolorem repudiandae odit architecto laboriosam? Delectus aliquid et alias! Odio, enim eius quisquam dolorem non placeat, molestiae esse hic iure blanditiis quidem, soluta accusantium itaque numquam tempora quasi repellendus vel eveniet ipsum. Ut hic, eius perspiciatis inventore quia minima nostrum minus itaque unde enim fugit laborum earum temporibus odit necessitatibus officia tenetur eos. Quos dolorum fugiat beatae nulla ad earum!</p>
+            </section>
+
+            <section>
+                <h3 id="section-2">Section 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta at temporibus, aliquam iure nisi dolores eligendi ab quis expedita. Velit praesentium officia error assumenda odit quae quidem eum suscipit sed provident deleniti illum, doloribus repudiandae earum dolore consectetur eius illo quibusdam alias corrupti eligendi? Dolorem autem at ipsam amet architecto ea quam optio sit, voluptatem commodi voluptatibus qui corrupti earum eos eveniet tenetur officia necessitatibus. Molestiae, quidem quas laboriosam minus distinctio esse vel non iste nemo in quae eius, itaque veniam repellat necessitatibus asperiores dolores veritatis qui possimus, natus fugiat aliquam. Odio, repellat? Pariatur eaque laudantium deserunt quibusdam quod.</p>
+            </section>
+        </div><!-- end target-->
+
+        <div class="hover-dim">
+            <h2>hover-dim</h2>
+
+            <div class="cards">
+                <div class="card">
+                    <h3>Card 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut autem tenetur rerum consequuntur ducimus laboriosam esse quaerat, beatae iure.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Card 2</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut autem tenetur rerum consequuntur ducimus laboriosam esse quaerat, beatae iure.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Card 3</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aut autem tenetur rerum consequuntur ducimus laboriosam esse quaerat, beatae iure.</p>
+                </div>
+            </div><!-- end cards -->
+        </div><!-- end hover-dim -->
+
+        <div class="figure-example">
+            <figure>
+                <img src="img/seventh-son.jpg" alt="">
+                <figcaption>Eddie</figcaption>
+            </figure>
+            <div class="toggle">
+                <input type="checkbox" name="figcaption-toggle" id="figcaption-toggle">
+                <label for="figcaption-toggle">Show figcaption</label>
+            </div><!-- end toggle -->
+        </div><!-- end figure-example -->
+
+        <div class="checkbox-example">
+            <div class="checkbox-wrapper">
+                <h2>Terms and conditions</h2>
+                <p>Before moving to the next step, please make sure you agree with our terms of services.</p>
+                <div class="terms"> 
+                    <input type="checkbox" name="terms" id="terms">
+                    <p>I accept the terms and conditions</p>
+                </div><!-- end terms -->
+                <button type="submit" class="checkbox-btn">Next</button>
+            </div><!-- end checkbox-wrapper -->
+        </div><!-- end checkbox-example -->
+
+        <div class="quiz-example">
+            <div class="quiz">
+                <h2>Which year was Boro formed?</h2>
+
+                <div class="answers">
+                    <div class="answer">
+                            <input type="radio" name="answer" id="answer-1" data-correct="false">
+                            <label for="answer-1">1891</label>
+                    </div><!-- end answer -->
+
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer-2" data-correct="true">
+                        <label for="answer-2">1876</label>
+                    </div><!-- end answer -->
+
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer-3" data-correct="false">
+                        <label for="answer-3">1885</label>
+                    </div><!-- end answer -->
+                </div><!-- end answers -->
+
+                <p class="right-answer">
+                    Correct!
+                </p>
+                <p class="wrong-answer">
+                    Wrong!
+                </p>
+            </div><!-- end quiz -->
+        </div><!-- end quiz-example-->
+
+    </main>
+</body>
+</html>
